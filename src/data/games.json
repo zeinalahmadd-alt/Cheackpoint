@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "title": "The Witcher 3: Wild Hunt",
+        "genre": "Action RPG",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=The+Witcher+3"
+    },
+    {
+        "id": 2,
+        "title": "Red Dead Redemption 2",
+        "genre": "Action Adventure",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Red+Dead+Redemption+2"
+    },
+    {
+        "id": 3,
+        "title": "Elden Ring",
+        "genre": "Action RPG",
+        "status": "playing",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Elden+Ring"
+    },
+    {
+        "id": 4,
+        "title": "God of War Ragnarök",
+        "genre": "Action Adventure",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=God+of+War+Ragnarok"
+    },
+    {
+        "id": 5,
+        "title": "The Last of Us Part I",
+        "genre": "Action Adventure",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=The+Last+of+Us+Part+I"
+    },
+    {
+        "id": 6,
+        "title": "The Legend of Zelda: Tears of the Kingdom",
+        "genre": "Action Adventure",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Zelda+Tears+of+the+Kingdom"
+    },
+    {
+        "id": 7,
+        "title": "GTA V",
+        "genre": "Action Adventure",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=GTA+V"
+    },
+    {
+        "id": 8,
+        "title": "Cyberpunk 2077",
+        "genre": "Action RPG",
+        "status": "playing",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Cyberpunk+2077"
+    },
+    {
+        "id": 9,
+        "title": "Baldur's Gate 3",
+        "genre": "RPG",
+        "status": "playing",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Baldurs+Gate+3"
+    },
+    {
+        "id": 10,
+        "title": "Skyrim",
+        "genre": "Action RPG",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Skyrim"
+    },
+    {
+        "id": 11,
+        "title": "God of War (2018)",
+        "genre": "Action Adventure",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=God+of+War"
+    },
+    {
+        "id": 12,
+        "title": "Ghost of Tsushima",
+        "genre": "Action Adventure",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Ghost+of+Tsushima"
+    },
+    {
+        "id": 13,
+        "title": "Dark Souls III",
+        "genre": "Action RPG",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Dark+Souls+III"
+    },
+    {
+        "id": 14,
+        "title": "Bloodborne",
+        "genre": "Action RPG",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Bloodborne"
+    },
+    {
+        "id": 15,
+        "title": "Resident Evil 4 Remake",
+        "genre": "Survival Horror",
+        "status": "wantToPlay",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Resident+Evil+4+Remake"
+    },
+    {
+        "id": 16,
+        "title": "Horizon Forbidden West",
+        "genre": "Action RPG",
+        "status": "wantToPlay",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Horizon+Forbidden+West"
+    },
+    {
+        "id": 17,
+        "title": "Marvel's Spider-Man 2",
+        "genre": "Action Adventure",
+        "status": "wantToPlay",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Spider-Man+2"
+    },
+    {
+        "id": 18,
+        "title": "Mass Effect Legendary Edition",
+        "genre": "RPG",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Mass+Effect+Legendary"
+    },
+    {
+        "id": 19,
+        "title": "Sekiro: Shadows Die Twice",
+        "genre": "Action Adventure",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Sekiro"
+    },
+    {
+        "id": 20,
+        "title": "Monster Hunter: World",
+        "genre": "Action RPG",
+        "status": "playing",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Monster+Hunter+World"
+    },
+    {
+        "id": 21,
+        "title": "Batman: Arkham Knight",
+        "genre": "Action Adventure",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Batman+Arkham+Knight"
+    },
+    {
+        "id": 22,
+        "title": "Uncharted 4: A Thief's End",
+        "genre": "Action Adventure",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Uncharted+4"
+    },
+    {
+        "id": 23,
+        "title": "Devil May Cry 5",
+        "genre": "Action",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Devil+May+Cry+5"
+    },
+    {
+        "id": 24,
+        "title": "Death Stranding",
+        "genre": "Action Adventure",
+        "status": "wantToPlay",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Death+Stranding"
+    },
+    {
+        "id": 25,
+        "title": "Fallout 4",
+        "genre": "Action RPG",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Fallout+4"
+    },
+    {
+        "id": 26,
+        "title": "Far Cry 3",
+        "genre": "FPS / Action",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Far+Cry+3"
+    },
+    {
+        "id": 27,
+        "title": "Assassin's Creed Valhalla",
+        "genre": "Action RPG",
+        "status": "wantToPlay",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Assassins+Creed+Valhalla"
+    },
+    {
+        "id": 28,
+        "title": "Control",
+        "genre": "Action Adventure",
+        "status": "wantToPlay",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Control"
+    },
+    {
+        "id": 29,
+        "title": "BioShock Infinite",
+        "genre": "FPS / Action",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=BioShock+Infinite"
+    },
+    {
+        "id": 30,
+        "title": "Red Dead Redemption",
+        "genre": "Action Adventure",
+        "status": "completed",
+        "fav": false,
+        "cover": "https://placehold.co/400x500/151F32/FFFFFF?text=Red+Dead+Redemption"
+    }
+]

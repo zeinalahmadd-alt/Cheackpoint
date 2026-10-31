@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329" />
+      <stop offset="100%" stop-color="#040711" />
+    </linearGradient>
+
+    <!-- Dynamic S-Ribbon Gradient -->
+    <linearGradient id="ribbonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#0096ff" />
+      <stop offset="100%" stop-color="#0055ff" />
+    </linearGradient>
+
+    <!-- Outer Ring Gradient -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#0066ff" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#00d2ff" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Controller Dark Gradient -->
+    <linearGradient id="controllerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#0b132b" />
+    </linearGradient>
+
+    <!-- Controller Border Highlight -->
+    <linearGradient id="controllerBorder" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0055ff" />
+    </linearGradient>
+
+    <!-- Glow Effect -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Controller Drop Shadow -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- App Rounded Canvas / Icon Base -->
+  <rect width="512" height="512" rx="115" ry="115" fill="url(#bgGrad)" />
+
+  <!-- Outer Glowing Ring Orbit -->
+  <ellipse cx="256" cy="240" rx="150" ry="95" 
+           fill="none" 
+           stroke="url(#ringGrad)" 
+           stroke-width="16" 
+           filter="url(#neonGlow)" />
+
+  <!-- Center Flag Pole -->
+  <line x1="256" y1="90" x2="256" y2="360" 
+        stroke="#0096ff" 
+        stroke-width="8" 
+        stroke-linecap="round" />
+
+  <!-- Dynamic S-Curve Ribbon Flow (Main Feature) -->
+  <path d="M 256 90 C 160 90, 160 220, 256 220 C 352 220, 352 350, 256 350" 
+        fill="none" 
+        stroke="url(#ribbonGrad)" 
+        stroke-width="32" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        filter="url(#neonGlow)" />
+
+  <!-- Flag Top Wave Banner -->
+  <path d="M 256 90 C 300 65, 340 110, 390 80 L 390 160 C 340 190, 300 145, 256 170 Z" 
+        fill="url(#ribbonGrad)" 
+        opacity="0.9" />
+
+  <!-- Game Controller Component (Foreground) -->
+  <g id="Gamepad" transform="translate(116, 260)" filter="url(#dropShadow)">
+    <!-- Controller Main Body -->
+    <path d="M 50 60 C 50 20, 90 15, 140 15 C 190 15, 230 20, 230 60 C 230 115, 210 140, 185 140 C 160 140, 150 110, 140 110 C 130 110, 120 140, 95 140 C 70 140, 50 115, 50 60 Z" 
+          fill="url(#controllerGrad)" 
+          stroke="url(#controllerBorder)" 
+          stroke-width="5" />
+    
+    <!-- D-Pad Directional Buttons (Left) -->
+    <path d="M 85 50 H 100 V 35 H 112 V 50 H 127 V 62 H 112 V 77 H 100 V 62 H 85 Z" fill="#38bdf8" />
+
+    <!-- Action Buttons (Right) -->
+    <circle cx="180" cy="56" r="7" fill="#38bdf8" />
+    <circle cx="198" cy="40" r="7" fill="#38bdf8" />
+    <circle cx="198" cy="72" r="7" fill="#38bdf8" />
+    <circle cx="216" cy="56" r="7" fill="#38bdf8" />
+  </g>
+</svg>
